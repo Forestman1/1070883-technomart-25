@@ -489,11 +489,27 @@ input[type="radio"].visually_hidden {
     min-height: 60px;
 }
 
+.nav_item:nth-child(1) {
+    padding-left: 2px;
+}
+
+.nav_item:nth-child(2) {
+    padding-left: 4px;
+}
+
+.nav_item:nth-child(5) {
+    padding-right: 3px;
+}
+
+.nav_item:nth-child(6) {
+    padding-right: 4px;
+}
+
 .nav_item a {
     display: inline-block;
     font-size: 17px;
-    line-height: 60px;
-    padding: 0 30px;
+    line-height: 58px;
+    padding: 0 29px;
     color: #ffffff;
 }
 
@@ -519,7 +535,7 @@ input[type="radio"].visually_hidden {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    margin-bottom: 18px;
+    margin-bottom: 17px;
     padding: 0;
     padding-top: 18px;
     list-style: none;
@@ -565,8 +581,8 @@ input[type="radio"].visually_hidden {
     width: 940px;
     min-height: 89px;
     margin: 0;
-    margin-bottom: 19px;
-    padding-left: 27px;
+    margin-bottom: 20px;
+    padding-left: 28px;
     font-family: Cuprum, Arial, sans-serif;
     font-size: 30px;
     line-height: 89px;
@@ -590,11 +606,12 @@ input[type="radio"].visually_hidden {
 
 .filter_title {
     margin: 0;
-    margin-bottom: 13px;
+    margin-bottom: 11px;
     padding-left: 19px;
     font-size: 13px;
     line-height: 38px;
     color: #000000;
+    font-weight: 400;
     text-transform: uppercase;
     border-radius: 4px;
     background-color: #f7f3ec;
@@ -622,7 +639,7 @@ input[type="radio"].visually_hidden {
 }
 
 .filter_form legend {
-    margin-bottom: 13px;
+    margin-bottom: 14px;
     font-size: 17px;
     line-height: 30px;
     color: #000000;
@@ -639,7 +656,7 @@ input[type="radio"].visually_hidden {
     display: inline-block;
     width: 220px;
     height: 80px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     border-radius: 4px;
     background-color: #f7f3ec;
 }
@@ -693,11 +710,8 @@ input[type="radio"].visually_hidden {
 }
 
 .price_number input {
-    width: 91px;
     height: 36px;
     padding: 0;
-    padding-left: 4px;
-    padding-bottom: 2px;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 17px;
     line-height: 36px;
@@ -708,10 +722,22 @@ input[type="radio"].visually_hidden {
     background-color: #f7f3ec;
 }
 
+.price_number input:first-child {
+    width: 89px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+}
+
+.price_number input:last-child {
+    width: 92px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
 .filter_manufacturers {
     position: relative;
     margin: 0;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .filter_manufacturers::after {
@@ -719,7 +745,7 @@ input[type="radio"].visually_hidden {
     position: absolute;
     width: 220px;
     height: 1px;
-    bottom: -5px;
+    bottom: -3px;
     left: 0;
     background-color: #e5e5e5;
 }
@@ -771,7 +797,7 @@ input[type="radio"].visually_hidden {
     position: absolute;
     width: 23px;
     height: 23px;
-    top: 0;
+    top: -2px;
     left: 0;
     background-image: url(../img/checkbox-off.svg);
     background-repeat: no-repeat;
@@ -875,6 +901,7 @@ input[type="radio"].visually_hidden {
     margin-left: 19px;
     font-size: 13px;
     line-height: 38px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -915,10 +942,6 @@ input[type="radio"].visually_hidden {
 
 .sorting_list li:nth-child(2) {
     margin-right: 66px;
-}
-
-.sorting_list li:nth-child(3) {
-    margin-right: 46px;
 }
 
 .sorting_arrow {
@@ -1145,7 +1168,7 @@ input[type="radio"].visually_hidden {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 61px;
+    margin-bottom: 60px;
 }
 
 .pagination li {
@@ -1196,13 +1219,13 @@ input[type="radio"].visually_hidden {
 
 .catalog_content {
     padding-top: 65px;
-    padding-bottom: 70px;
+    padding-bottom: 68px;
     background-color: #f2f6f8;
 }
 
 .catalog_content h2 {
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
     font-family: Cuprum, Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
@@ -2220,12 +2243,12 @@ input[type="radio"].visually_hidden {
 .company_info {
     width: 540px;
     margin-right: 100px;
-    margin-bottom: 86px;
+    margin-bottom: 85px;
 }
 
 .title_content {
     margin: 0;
-    margin-bottom: 26px;
+    margin-bottom: 25px;
     font-family: Cuprum, Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
@@ -2238,7 +2261,7 @@ input[type="radio"].visually_hidden {
 }
 
 .company_info .company_content {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .company_info .company_content_last {
@@ -2247,7 +2270,7 @@ input[type="radio"].visually_hidden {
 
 .transport_list {
     margin: 0;
-    margin-bottom: 38px;
+    margin-bottom: 37px;
     padding: 0;
     list-style: none;
 }
@@ -2300,18 +2323,21 @@ input[type="radio"].visually_hidden {
 
 .company_contacts p {
     width: 185px;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
 }
 
 .map {
     display: inline-block;
-    margin-bottom: 34px;
+    margin-bottom: 32px;
 }
 
 .write_us {
     display: inline-block;
     width: 300px;
     height: 38px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 1px;
     font-family: Cuprum, Arial, sans-serif;
     font-size: 14px;
     line-height: 38px;
