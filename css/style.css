@@ -699,13 +699,11 @@ input[type="radio"].visually_hidden {
     height: 38px;
 }
 
-.price_number::after {
-    content: "";
-    position: absolute;
+.price_number_dash {
     width: 9px;
     height: 1px;
-    top: 19px;
-    left: 106px;
+    margin-top: 19px;
+    margin-left: 2px;
     background-color: #000000;
 }
 
